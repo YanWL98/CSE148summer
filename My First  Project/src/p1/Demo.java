@@ -1,9 +1,17 @@
 package p1;
 
-public class Demo {
+import java.util.Scanner;
 
+public class Demo {
+// method
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		// input
+		Scanner k = new Scanner(System.in);
+		System.out.print("Enter your name: ");
+		String name = k.nextLine();
+		//output
+//		System.out.print(name);
+		System.out.print("Hello, " + name + ", Nice meeting you!"); // output
 	}
 
 }
